@@ -49,7 +49,7 @@ def selecionar_arquivo(converter_funcao, extensao_origem, extensao_destino):
 # Criando a interface gráfica
 root = tk.Tk()
 root.title("Conversor JSON/CSV")
-root.geometry("400x250")
+root.geometry("600x400")
 
 tk.Label(root, text="Selecione o tipo de conversão:", font=("Arial", 12)).pack(pady=10)
 

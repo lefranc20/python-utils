@@ -27,7 +27,9 @@ def salvar_json(dados, caminho_saida):
 def main():
     # Cria a janela principal
     root = Tk()
-    root.withdraw()  # Esconde a janela principal
+    root.title("Removedor de Campos JSON")
+    root.geometry("600x400")
+    # root.withdraw()  # Esconde a janela principal
 
     # Abre a caixa de diálogo para selecionar o arquivo JSON
     caminho_json = filedialog.askopenfilename(

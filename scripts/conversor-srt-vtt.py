@@ -59,7 +59,7 @@ def selecionar_arquivo(converter_funcao, extensao_origem, extensao_destino):
 # Criando a interface gráfica
 root = tk.Tk()
 root.title("Conversor de Legendas SRT/VTT")
-root.geometry("400x200")
+root.geometry("600x400")
 
 tk.Label(root, text="Selecione o tipo de conversão:", font=("Arial", 12)).pack(pady=10)
 
